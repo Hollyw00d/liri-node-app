@@ -52,7 +52,12 @@ var liri = {
     'do-what-it-says': function () {
         fs.readFile('random.txt', 'utf8', (err, content) => this.runCommand(content));
     },
+
+    /*
     runCommand: function (str) {
+        console.log('process.argv: ', process.argv);
+
+        // For example 'concert-this,Rolling Stones'
         var commaIndex = str.indexOf(',');
         console.log('commaIndex: ', commaIndex);
         var command, param;
@@ -61,9 +66,29 @@ var liri = {
             param = str.slice(commaIndex + 1);
             console.log('param: ', param);
 
-        } else command = str;
+        } 
+        else {
+            command = str;
+            console.log('Please enter a search action and search term.');
+            return;
+        }
         console.log(command);
+        // Doing liri method call and passing in
+        // in the param (search command like "Rolling Stones")
+        // to the method
         this[command](param);
+
+        console.log('this inside runCommand: ', this);
+    }
+    */
+    runCommand: function(command, param) {
+        if(!command && !param) {
+            console.log('Please enter a search action and search term.');
+        }
+        this[command](param);
+        
     }
 };
-liri.runCommand(process.argv.slice(2).join(','));
+liri.runCommand(process.argv[2], process.argv.slice(3).join(' '));
+//liri.runCommand(process.argv.slice(2).join(','));
+// runThis(process.argv[2], process.argv.slice(3).join(" "));
