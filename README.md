@@ -1,5 +1,9 @@
 # liri-node-app
-LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
+LIRI will search Bands in Town API for concerts, Spotify API for songs, and OMDB API for movies.
 
-# Blah!
-![Test image](/sac-desktop-thumb.png)
+To use this app install Node.js, download the files from this repo, install all the Node packages (**node i**), and enter the commands below in the same directory from the cloned files using a terminal.
+
+## Bands in Town API for concerts
+1. To search for Lady Gaga using the Bands in Town API enter the command below:
+**node liri concert-this Lady Gaga**
+![concert-this example for Lady Gaga](/images/concert-this-text-example.png)
