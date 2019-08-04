@@ -27,4 +27,6 @@ To use this app install Node.js, download the files from this repo, install all 
 ## do-what-it-says command
 1. To use the <b>do-what-it-says</b> command using LIRI, which actually executes <b>node liri spotify-this-song I Want it That Way</b> to show the Backstreet Boys song, enter the command below:  
 <b>node liri do-what-it-says</b>  
-![do-what-it-says](/images/do-what-it-says-command.png)
+![do-what-it-says command](/images/do-what-it-says-command.png)  
+2. Then press <b>Enter</b> and see the the results of information on the song "I Want it That Way" by the Backstreet Boys using <b>spotify-this-song</b> API: 
+![do-what-it-says results](/images/do-what-it-says-results.png) 
