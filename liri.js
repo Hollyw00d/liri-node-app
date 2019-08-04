@@ -74,7 +74,9 @@ var liri = {
             });
     },
     'do-what-it-says': function () {
-        fs.readFile('random.txt', 'utf8', (err, content) => this.runCommand(content));
+        fs.readFile('random.txt', 'utf8', function (err, content) { 
+            this.runCommand(content)
+        });
     },
     runCommand: function(command, param) {
         // Assign this to that to use this
