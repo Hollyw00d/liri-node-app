@@ -20,4 +20,6 @@ To use this app install Node.js, download the files from this repo, install all 
 ## OMDB API for movies
 1. To search for the movie "Happy-Go-Lucky" using the OMDB API for movies, enter the command below:  
 <b>node liri movie-this Happy-Go-Lucky</b>  
-![movie-this command for "Happy-Go-Lucky" movie](/images/movie-this-command.png)
+![movie-this command for 'Happy-Go-Lucky' movie](/images/movie-this-command.png)
+2. Then press <b>Enter</b> and see the the results of information on the movie "Happy-Go-Lucky": 
+![movie-this results for 'Happy-Go-Lucky' movie](/images/movie-this-results.png)
