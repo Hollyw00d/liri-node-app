@@ -22,4 +22,9 @@ To use this app install Node.js, download the files from this repo, install all 
 <b>node liri movie-this Happy-Go-Lucky</b>  
 ![movie-this command for 'Happy-Go-Lucky' movie](/images/movie-this-command.png)
 2. Then press <b>Enter</b> and see the the results of information on the movie "Happy-Go-Lucky": 
-![movie-this results for 'Happy-Go-Lucky' movie](/images/movie-this-results.png)
+![movie-this results for 'Happy-Go-Lucky' movie](/images/movie-this-results.png)  
+
+## do-what-it-says command
+1. To use the <b>do-what-it-says</b> command using LIRI, which actually executes <b>node liri spotify-this-song I Want it That Way</b> to show the Backstreet Boys song, enter the command below:  
+<b>node liri do-what-it-says</b>  
+![do-what-it-says](/images/do-what-it-says-command.png)
