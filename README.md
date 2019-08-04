@@ -6,5 +6,6 @@ To use this app install Node.js, download the files from this repo, install all 
 ## Bands in Town API for concerts
 1. To search for Lady Gaga using the Bands in Town API enter the command below:  
 <b>node liri concert-this Lady Gaga</b>
-![concert-this example for Lady Gaga](/images/concert-this-text-example.png)
-2. Then a 
+![concert-this command for Lady Gaga](/images/concert-this-command.png)
+2. Then press <b>Enter</b> and see the the results of when Lady Gaga is performing music:  
+![concert-this result for Lady Gaga](/images/concert-this-results.png)
